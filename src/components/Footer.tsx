@@ -9,39 +9,39 @@ export default function Footer() {
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">О бренде</h3>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">О компании</h3>
                 <a
-                  href="#history"
+                  href="#about"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  История
+                  О нас
                 </a>
                 <a
-                  href="#recipe"
+                  href="#team"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Рецепт
+                  Команда
                 </a>
                 <a
                   href="#contact"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Связаться
+                  Контакты
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Продукция</h3>
                 <a
-                  href="#flavors"
+                  href="#water"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Вкусы
+                  Водоснабжение
                 </a>
                 <a
-                  href="#where"
+                  href="#materials"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Где купить
+                  Стройматериалы
                 </a>
                 <a
                   href="#wholesale"
@@ -53,9 +53,9 @@ export default function Footer() {
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
               <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                АРУТКР
+                АКВАГИД
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Аруткр · 100 лет вкуса</p>
+              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} АкваГид · 40 лет надёжности</p>
             </div>
           </div>
         </div>
